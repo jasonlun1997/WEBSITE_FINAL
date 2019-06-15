@@ -10,7 +10,7 @@ $(document).ready(function(){
     {
         mapArray[0] = 1;
         $("#b0").hide();
-        $("#my0").attr("src","images/jin.JPG");
+        $("#my0").attr("src","images/jin.jpg");
         sleep(1000).then(() => {         
 
             if(mapArray[14]==1){    
@@ -19,7 +19,7 @@ $(document).ready(function(){
             }
             else{
                     $("#b0").show();
-                    $("#my0").attr("src","images/white.JPG");
+                    $("#my0").attr("src","images/white.jpg");
                      mapArray[0] = 0;
             }
         })
@@ -34,7 +34,7 @@ $(document).ready(function(){
         sleep(1000).then(() => {
             
             if(mapArray[8]==1){
-                $("#my1").attr("src","images/chung.JPG");
+                $("#my1").attr("src","images/chung.jpg");
             }
             else{
                 $("#b1").attr("value","?");
@@ -52,7 +52,7 @@ $(document).ready(function(){
         sleep(1000).then(() => {
             
             if(mapArray[10]==1){
-                $("#my2").attr("src","images/PAN.JPG");
+                $("#my2").attr("src","images/PAN.jpg");
             }
             else{
                 $("#b2").attr("value","?");
@@ -66,7 +66,7 @@ $(document).ready(function(){
     {
         mapArray[3] = 1;
         $("#b3").hide();
-        $("#my3").attr("src","images/YON.JPG");
+        $("#my3").attr("src","images/YON.jpg");
         sleep(1000).then(() => {         
 
             if(mapArray[6]==1){    
@@ -75,7 +75,7 @@ $(document).ready(function(){
             }
             else{
                     $("#b3").show();
-                    $("#my3").attr("src","images/white.JPG");
+                    $("#my3").attr("src","images/white.jpg");
                      mapArray[3] = 0;
             }
         })
@@ -89,7 +89,7 @@ $(document).ready(function(){
         sleep(1000).then(() => {
             
             if(mapArray[13]==1){
-                $("#my4").attr("src","images/AN.JPG");
+                $("#my4").attr("src","images/AN.jpg");
             }
             else{
                 $("#b4").attr("value","?");
@@ -107,7 +107,7 @@ $(document).ready(function(){
         sleep(1000).then(() => {
             
             if(mapArray[7]==1){
-                $("#my5").attr("src","images/Ya.JPG");
+                $("#my5").attr("src","images/Ya.jpg");
             }
             else{
                 $("#b5").attr("value","?");
@@ -125,7 +125,7 @@ $(document).ready(function(){
         sleep(1000).then(() => {
             
             if(mapArray[3]==1){
-                $("#my6").attr("src","images/YON.JPG");
+                $("#my6").attr("src","images/YON.jpg");
             }
             else{
                 $("#b6").attr("value","?");
@@ -139,7 +139,7 @@ $(document).ready(function(){
     {
         mapArray[7] = 1;
         $("#b7").hide();
-        $("#my7").attr("src","images/Ya.JPG");
+        $("#my7").attr("src","images/Ya.jpg");
         sleep(1000).then(() => {         
 
             if(mapArray[5]==1){    
@@ -148,7 +148,7 @@ $(document).ready(function(){
             }
             else{
                     $("#b7").show();
-                    $("#my7").attr("src","images/white.JPG");
+                    $("#my7").attr("src","images/white.jpg");
                      mapArray[7] = 0;
             }
         })
@@ -158,7 +158,7 @@ $(document).ready(function(){
     {
         mapArray[8] = 1;
         $("#b8").hide();
-        $("#my8").attr("src","images/chung.JPG");
+        $("#my8").attr("src","images/chung.jpg");
         sleep(1000).then(() => {         
 
             if(mapArray[1]==1){    
@@ -167,7 +167,7 @@ $(document).ready(function(){
             }
             else{
                     $("#b8").show();
-                    $("#my8").attr("src","images/white.JPG");
+                    $("#my8").attr("src","images/white.jpg");
                      mapArray[8] = 0;
             }
         })
@@ -181,7 +181,7 @@ $(document).ready(function(){
         sleep(1000).then(() => {
             
             if(mapArray[15]==1){
-                $("#my9").attr("src","images/TIN.JPG");
+                $("#my9").attr("src","images/TIN.jpg");
             }
             else{
                 $("#b9").attr("value","?");
@@ -195,7 +195,7 @@ $(document).ready(function(){
     {
         mapArray[10] = 1;
         $("#b10").hide();
-        $("#my10").attr("src","images/PAN.JPG");
+        $("#my10").attr("src","images/PAN.jpg");
         sleep(1000).then(() => {         
 
             if(mapArray[2]==1){    
@@ -204,7 +204,7 @@ $(document).ready(function(){
             }
             else{
                     $("#b10").show();
-                    $("#my10").attr("src","images/white.JPG");
+                    $("#my10").attr("src","images/white.jpg");
                      mapArray[10] = 0;
             }
         })
@@ -218,7 +218,7 @@ $(document).ready(function(){
         sleep(1000).then(() => {
             
             if(mapArray[12]==1){
-                $("#my11").attr("src","images/CHEN.JPG");
+                $("#my11").attr("src","images/CHEN.jpg");
             }
             else{
                 $("#b11").attr("value","?");
@@ -231,7 +231,7 @@ $(document).ready(function(){
     {
         mapArray[12] = 1;
         $("#b12").hide();
-        $("#my12").attr("src","images/CHEN.JPG");
+        $("#my12").attr("src","images/CHEN.jpg");
         sleep(1000).then(() => {         
 
             if(mapArray[11]==1){    
@@ -240,7 +240,7 @@ $(document).ready(function(){
             }
             else{
                     $("#b12").show();
-                    $("#my12").attr("src","images/white.JPG");
+                    $("#my12").attr("src","images/white.jpg");
                      mapArray[12] = 0;
             }
         })
@@ -249,7 +249,7 @@ $(document).ready(function(){
     {
         mapArray[13] = 1;
         $("#b13").hide();
-        $("#my13").attr("src","images/AN.JPG");
+        $("#my13").attr("src","images/AN.jpg");
         sleep(1000).then(() => {         
 
             if(mapArray[4]==1){    
@@ -258,7 +258,7 @@ $(document).ready(function(){
             }
             else{
                     $("#b13").show();
-                    $("#my13").attr("src","images/white.JPG");
+                    $("#my13").attr("src","images/white.jpg");
                      mapArray[13] = 0;
             }
         })
@@ -273,7 +273,7 @@ $(document).ready(function(){
         sleep(1000).then(() => {
             
             if(mapArray[0]==1){
-                $("#my14").attr("src","images/jin.JPG");
+                $("#my14").attr("src","images/jin.jpg");
             }
             else{
                 $("#b14").attr("value","?");
@@ -287,7 +287,7 @@ $(document).ready(function(){
     {
         mapArray[15] = 1;
         $("#b15").hide();
-        $("#my15").attr("src","images/Tin.JPG");
+        $("#my15").attr("src","images/Tin.jpg");
         sleep(1000).then(() => {         
 
             if(mapArray[9]==1){    
@@ -296,7 +296,7 @@ $(document).ready(function(){
             }
             else{
                     $("#b15").show();
-                    $("#my15").attr("src","images/white.JPG");
+                    $("#my15").attr("src","images/white.jpg");
                      mapArray[15] = 0;
             }
         })
