@@ -1,13 +1,13 @@
 //yt影片ID
 var playList = [
-    "bu7nU9Mhpyo",
-    "v489sYYjtHI",
-    "zqKoXPHhmsM"
+    "EJud0U7m1C8",
+    "ENHKBmUMxJ0",
+    "9O1vGWblgsY"
 ];
 
 //播放起迄秒數
 var playTime=[
-    [1,5], 
-    [1,5], 
-    [1,5]
+    [70,90], 
+    [90,110], 
+    [40,62]
 ];
