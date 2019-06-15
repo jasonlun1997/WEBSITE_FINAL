@@ -2,6 +2,7 @@ $(document).ready(function(){
     var currentQuiz = null;
     $("#startButton").click(function()
     {
+        $("H1").hide();
         //如果還沒開始作答
         if(currentQuiz==null)
         {
@@ -27,10 +28,11 @@ $(document).ready(function(){
                     //使用者所選的項目是否產結果(A~D)
                     if(isNaN(questions[currentQuiz].answers[i][1]))
                     {
+                        $("H1").show();
                         //通往結果
                         var finalResult = questions[currentQuiz].answers[i][1];
                         //顯示結果標題
-                        $("#options").text(finalAnswers[finalResult][0]);
+                        $("#question").text(finalAnswers[finalResult][0]);
                         //選項清空
                         $("#options").empty();
                         //顯示內容
