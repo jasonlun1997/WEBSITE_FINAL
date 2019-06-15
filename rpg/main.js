@@ -34,7 +34,7 @@ $(document).ready(function(){
         sleep(1000).then(() => {
             
             if(mapArray[8]==1){
-                $("#my1").attr("src","images/chung.jpg");
+                $("#my1").attr("src","images/Chung.jpg");
             }
             else{
                 $("#b1").attr("value","?");
@@ -158,7 +158,7 @@ $(document).ready(function(){
     {
         mapArray[8] = 1;
         $("#b8").hide();
-        $("#my8").attr("src","images/chung.jpg");
+        $("#my8").attr("src","images/Chung.jpg");
         sleep(1000).then(() => {         
 
             if(mapArray[1]==1){    
@@ -287,7 +287,7 @@ $(document).ready(function(){
     {
         mapArray[15] = 1;
         $("#b15").hide();
-        $("#my15").attr("src","images/Tin.jpg");
+        $("#my15").attr("src","images/TIN.jpg");
         sleep(1000).then(() => {         
 
             if(mapArray[9]==1){    
