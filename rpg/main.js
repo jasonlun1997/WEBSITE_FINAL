@@ -1,10 +1,12 @@
-$(document).ready(function(){
-    
-    
-    var mapArray = [ 0,0,0,0
+var check = 0;
+var mapArray = [ 0,0,0,0
                     ,0,0,0,0
                     ,0,0,0,0
                     ,0,0,0,0];
+    
+$(document).ready(function(){
+    
+    
     
     $("#b0").click(function()
     {
@@ -16,6 +18,7 @@ $(document).ready(function(){
             if(mapArray[14]==1){    
                 $("#b0").show();
                 $("#b0").attr("value","張經略");
+                over();
             }
             else{
                     $("#b0").show();
@@ -35,6 +38,7 @@ $(document).ready(function(){
             
             if(mapArray[8]==1){
                 $("#my1").attr("src","images/Chung.jpg");
+                over();
             }
             else{
                 $("#b1").attr("value","?");
@@ -53,6 +57,7 @@ $(document).ready(function(){
             
             if(mapArray[10]==1){
                 $("#my2").attr("src","images/PAN.jpg");
+                over();
             }
             else{
                 $("#b2").attr("value","?");
@@ -72,6 +77,7 @@ $(document).ready(function(){
             if(mapArray[6]==1){    
                 $("#b3").show();
                 $("#b3").attr("value","陳勇志");
+                over();
             }
             else{
                     $("#b3").show();
@@ -90,6 +96,7 @@ $(document).ready(function(){
             
             if(mapArray[13]==1){
                 $("#my4").attr("src","images/AN.jpg");
+                over();
             }
             else{
                 $("#b4").attr("value","?");
@@ -108,6 +115,7 @@ $(document).ready(function(){
             
             if(mapArray[7]==1){
                 $("#my5").attr("src","images/Ya.jpg");
+                over();
             }
             else{
                 $("#b5").attr("value","?");
@@ -126,6 +134,7 @@ $(document).ready(function(){
             
             if(mapArray[3]==1){
                 $("#my6").attr("src","images/YON.jpg");
+                over();
             }
             else{
                 $("#b6").attr("value","?");
@@ -145,6 +154,7 @@ $(document).ready(function(){
             if(mapArray[5]==1){    
                 $("#b7").show();
                 $("#b7").attr("value","葉弈成");
+                over();
             }
             else{
                     $("#b7").show();
@@ -164,6 +174,7 @@ $(document).ready(function(){
             if(mapArray[1]==1){    
                 $("#b8").show();
                 $("#b8").attr("value","鐘祥仁");
+                over();
             }
             else{
                     $("#b8").show();
@@ -182,6 +193,7 @@ $(document).ready(function(){
             
             if(mapArray[15]==1){
                 $("#my9").attr("src","images/TIN.jpg");
+                over();
             }
             else{
                 $("#b9").attr("value","?");
@@ -201,6 +213,7 @@ $(document).ready(function(){
             if(mapArray[2]==1){    
                 $("#b10").show();
                 $("#b10").attr("value","潘仁豪");
+                over();
             }
             else{
                     $("#b10").show();
@@ -219,6 +232,7 @@ $(document).ready(function(){
             
             if(mapArray[12]==1){
                 $("#my11").attr("src","images/CHEN.jpg");
+                over();
             }
             else{
                 $("#b11").attr("value","?");
@@ -237,6 +251,7 @@ $(document).ready(function(){
             if(mapArray[11]==1){    
                 $("#b12").show();
                 $("#b12").attr("value","陳聿廣");
+                over();
             }
             else{
                     $("#b12").show();
@@ -255,6 +270,7 @@ $(document).ready(function(){
             if(mapArray[4]==1){    
                 $("#b13").show();
                 $("#b13").attr("value","陳彥安");
+                over();
             }
             else{
                     $("#b13").show();
@@ -274,6 +290,7 @@ $(document).ready(function(){
             
             if(mapArray[0]==1){
                 $("#my14").attr("src","images/jin.jpg");
+                over();
             }
             else{
                 $("#b14").attr("value","?");
@@ -293,6 +310,7 @@ $(document).ready(function(){
             if(mapArray[9]==1){    
                 $("#b15").show();
                 $("#b15").attr("value","簡廷因");
+                over();
             }
             else{
                     $("#b15").show();
@@ -301,8 +319,43 @@ $(document).ready(function(){
             }
         })
     });
+    
+    
+    
 });
 
 function sleep (time) {
   return new Promise((resolve) => setTimeout(resolve, time));
+}
+
+function over (){
+    if(mapArray[0]==1 && mapArray[1]==1 && mapArray[2]==1 && mapArray[3]==1 && mapArray[4]==1 && mapArray[5]==1 && mapArray[6]==1 && mapArray[7]==1
+      && mapArray[8]==1 && mapArray[9]==1 && mapArray[10]==1 && mapArray[11]==1 && mapArray[12]==1 && mapArray[13]==1 && mapArray[14] && mapArray[15]==1)
+        check = 1;
+    else check = 0;
+//    for(var x = 0; x < 16; x++){
+//        if(mapArray[x]==1)
+//        {
+//            check++;
+//        }
+        console.log(check);
+//    }
+    if(check == 1){
+        $("#b6").attr("value","林啟芳");
+        $("#my6").attr("src","images/Chi-Fang Lin.jpg");
+        $("#b7").attr("value","林榮彬");
+        $("#my7").attr("src","images/BIN.jpg");
+        $("#b8").attr("value","賴國華");
+        $("#my8").attr("src","images/HWAU.jpg");
+        $("#b10").attr("value","林基成");
+        $("#my10").attr("src","images/ji.jpg");
+        $("#b12").attr("value","黃毅然");
+        $("#my12").attr("src","images/ZAN.jpg");
+        $("#b13").attr("value","鍾添曜");
+        $("#my13").attr("src","images/TIAN.jpg");
+        $("#b14").attr("value","歐昱言");
+        $("#my14").attr("src","images/OH.jpg");
+        $("#b15").attr("value","陳柏豪");
+        $("#my15").attr("src","images/liu.jpg");
+    }
 }
